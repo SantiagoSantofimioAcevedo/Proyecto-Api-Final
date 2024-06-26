@@ -1,0 +1,39 @@
+## Uso de Postman
+
+Para probar las funcionalidades de este proyecto, puedes utilizar Postman para realizar solicitudes HTTP a las rutas definidas en el servidor Node.js.
+
+### Ejemplos de Endpoints
+
+#### Crear un Usuario
+
+**URL**: `http://localhost:3000/users`
+
+**Método**: `POST`
+
+**Cuerpo de la Solicitud**:
+```json
+{
+    "name": "Nombre del Usuario",
+    "email": "correo@example.com",
+    "password": "contraseña"
+}
+Crear un Mecánico
+URL: http://localhost:3000/mechanics
+
+Método: POST
+
+Cuerpo de la Solicitud: 
+
+{
+    "name": "Nombre del Mecánico",
+    "email": "mecanico@example.com",
+    "password": "contraseña",
+    "currentLocation": {"lat": 40.7128, "lng": -74.0060}
+}
+Obtener Servicios
+URL: http://localhost:3000/services
+
+Método: GET
+
+### **Finalización y Revisión**
+
